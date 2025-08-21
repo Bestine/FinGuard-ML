@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# data files - until granted permission
+data/
+
+# unaltered files - original files sent by the client 
+unaltered_files/
