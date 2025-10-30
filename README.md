@@ -50,11 +50,11 @@ FinGuard-ML/
 │   └── clean_data.csv           # Cleaned and processed data
 │
 ├── notebooks/
-│   ├── 1_data_exploration.ipynb        # Data loading & basic exploration
-│   ├── 2_eda_and_cleaning.ipynb        # EDA and preprocessing
-│   ├── 3_feature_engineering.ipynb     # Sampling, scaling, splitting
-│   ├── 4_model_training.ipynb          # ML model training & evaluation
-│   ├── 5_model_explainability.ipynb    # SHAP & LIME explanations
+│   ├── 01_data_exploration.ipynb        # Data loading & basic exploration
+│   ├── 02_eda_and_cleaning.ipynb        # EDA and preprocessing
+│   ├── 03_feature_engineering.ipynb     # Sampling, scaling, splitting
+│   ├── 04_model_training.ipynb          # ML model training & evaluation
+│   ├── 05_model_explainability.ipynb    # SHAP & LIME explanations
 │
 ├── models/
 │   └── best_model.pkl                  # Saved trained model
@@ -148,7 +148,7 @@ Deployed publicly via Streamlit Cloud: *Include the link later!*
 ## Run this project locally 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/FinGuard-ML.git
+git clone https://github.com/Bestine/FinGuard-ML.git
 cd FinGuard-ML
 
 # 2. Install dependencies
