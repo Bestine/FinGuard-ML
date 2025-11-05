@@ -211,3 +211,6 @@ data/
 
 # unaltered files - original files sent by the client 
 unaltered_files/
+
+# catboost logs 
+notebooks/catboost_info/
