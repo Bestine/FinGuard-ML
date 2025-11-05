@@ -214,3 +214,6 @@ unaltered_files/
 
 # catboost logs 
 notebooks/catboost_info/
+
+# selected models 
+models/
