@@ -4,3 +4,7 @@ numpy
 seaborn
 plotly 
 streamlit
+catboost
+xgboost 
+lightgbm
+joblib 
