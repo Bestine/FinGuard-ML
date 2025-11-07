@@ -555,6 +555,7 @@ matplotlib==3.10.7 \
     # via
     #   catboost
     #   lime
+    #   seaborn
 narwhals==2.10.2 \
     --hash=sha256:059cd5c6751161b97baedcaf17a514c972af6a70f36a89af17de1a0caf519c43 \
     --hash=sha256:ff738a08bc993cbb792266bec15346c1d85cc68fdfe82a23283c3713f78bd354
@@ -671,6 +672,7 @@ numpy==2.3.4 \
     #   scikit-image
     #   scikit-learn
     #   scipy
+    #   seaborn
     #   shap
     #   streamlit
     #   tifffile
@@ -735,6 +737,7 @@ pandas==2.3.3 \
     # via
     #   catboost
     #   finguard-ml
+    #   seaborn
     #   shap
     #   streamlit
 pillow==12.0.0 \
@@ -1171,6 +1174,10 @@ scipy==1.16.3 \
     #   scikit-learn
     #   shap
     #   xgboost
+seaborn==0.13.2 \
+    --hash=sha256:636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987 \
+    --hash=sha256:93e60a40988f4d65e9f4885df477e2fdaff6b73a9ded434c1ab356dd57eefff7
+    # via finguard-ml
 shap==0.49.1 \
     --hash=sha256:0b878470bdf6800069c25d2a8598eb0548aa1e6826becd39cca253521cc14866 \
     --hash=sha256:1114ecd804fff29f50d522ce6031082fcf42fe4a32fb1b5da233b2415d784c8c \
